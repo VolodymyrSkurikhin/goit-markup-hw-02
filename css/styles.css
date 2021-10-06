@@ -1,0 +1,111 @@
+body {
+ background-color: #ffffff;
+}
+/* Переменные */
+:root {
+ --text-prime-color: #212121;
+}
+:root {
+ --text-second-color: #757575;
+}
+:root {
+ --hov-foc-color: #2196f3;
+}
+:root {
+ --white-color: #ffffff;
+}
+:root {
+ --black-studio-color: #000000;
+}
+:root {
+ --black-footer-color: #2f303a;
+}
+:root {
+ --inactive-but-color: #f5f4fa;
+}
+.footer {
+ --mail-footer-color: rgba(255, 255, 255, 0.6);
+}
+body {
+ background-color: var(--white-color);
+}
+.footer {
+ background-color: var(--black-footer-color);
+}
+/* Лого */
+.web {
+ color: var(--hov-foc-color);
+}
+.studio {
+ color: var(--black-studio-color);
+}
+/* Навигация */
+.site-nav .link {
+ color: var(--text-prime-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+ color: var(--hov-foc-color);
+}
+.site-nav .act-link {
+ color: var(--hov-foc-color);
+}
+/* Адрес,телефон */
+.mail-tel .mail,
+.mail-tel .tel {
+ color: var(--text-second-color);
+}
+.mail-tel .mail:hover,
+.mail-tel .mail:focus,
+.mail-tel .tel:focus,
+.mail-tel .tel:hover {
+ color: var(--hov-foc-color);
+}
+/* Убрать точки со списков */
+.list {
+ list-style: none;
+}
+/* Фильтр */
+.but-act {
+ color: var(--white-color);
+ background-color: var(--hov-foc-color);
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+ border-radius: 4px;
+}
+.but {
+ color: var(--text-prime-color);
+ background-color: var(--inactive-but-color);
+}
+.but:hover,
+.but:focus {
+ color: var(--white-color);
+ background-color: var(--hov-foc-color);
+ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+ border-radius: 4px;
+}
+/* Проекты */
+.section-title {
+ color: var(--text-prime-color);
+}
+.section-kind {
+ color: var(--text-second-color);
+}
+/* Футер */
+.studio-footer {
+ color: var(--white-color);
+}
+.address {
+ color: var(--white-color);
+}
+.mail-footer {
+ color: var(--mail-footer-color);
+}
+.mail-footer:hover,
+.mail-footer:focus {
+ color: var(--hov-foc-color);
+}
+
+/* main color #212121 */
+/* cecond color #757575 */ ;
