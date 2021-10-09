@@ -6,13 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
   <!--Шапка сайта-->
   <header>
     <nav>
-      <a href="./index.html" lang="en"><span class="web">Web</span> <span class="studio">Studio</span></a>
+      <a href="./index.html" class="logo" lang="en"><span class="web">Web</span> <span class="studio-header">Studio</span></a>
       <ul class="site-nav list">
         <li><a href="./index.html" class="link">Студия</a></li>
         <li><a href="./portfolio.html" class="act-link">Портфолио</a></li>
@@ -25,84 +29,93 @@
     </ul>
   </header>
   <main class="main">
-    <!-- Фильтр -->
-    <ul class="list">
-      <li>
-        <button type="button" class="but-act">Все</button>
-      </li>
-      <li>
-        <button type="button" class="but">Веб-сайты</button>
-      </li>
-      <li>
-        <button type="button" class="but">Приложения</button>
-      </li>
-      <li>
-        <button type="button" class="but">Дизайн</button>
-      </li>
-      <li>
-        <button type="button" class="but">Маркетинг</button>
-      </li>
-    </ul>
-    <!-- Поекты -->
     <section class="section">
-      <h1 hidden>Проекты</h1>
+      <h1 class="visually-hidden">Projects</h1>
+    <!-- Фильтр -->
       <ul class="list">
         <li>
-          <img src="./images/techno.jpg" alt="лидеры технокряка" width="370">
-          <h2 class="section-title">Технокряк</h2>
-          <p class="section-kind">Веб-сайт</p>
+          <button type="button" class="but-act">Все</button>
         </li>
         <li>
-          <img src="./images/no-vs-gs.jpg" alt="баскетболисты" width="370">
-          <h2 class="section-title">Постер New Orlean vs Golden Star</h2>
-          <p class="section-kind">Дизайн</p>
+          <button type="button" class="but">Веб-сайты</button>
         </li>
         <li>
-          <img src="./images/seafood.jpg" alt="логотип-ресторана" width="370">
-          <h2 class="section-title">Ресторан Seafood</h2>
-          <p class="section-kind">Приложение</p>
+          <button type="button" class="but">Приложения</button>
         </li>
         <li>
-          <img src="./images/prime.jpg" alt="наушники" width="370">
-          <h2 class="section-title">Проект Prime</h2>
-          <p class="section-kind">Маркетинг</p>
+          <button type="button" class="but">Дизайн</button>
         </li>
         <li>
-          <img src="./images/boxes.jpg" alt="две-коробки" width="370">
-          <h2 class="section-title">Проект Boxes</h2>
-          <p class="section-kind">Приложение</p>
+          <button type="button" class="but">Маркетинг</button>
+        </li>
+      </ul>
+    <!-- Проекты -->
+      <ul class="list">
+        <li>
+          <a href="" class="section-photo"><img src="./images/techno.jpg" alt="лидеры технокряка" width="370">
+            <h2 class="section-title">Технокряк</h2>
+            <p class="section-kind">Веб-сайт</p>
+          </a>
         </li>
         <li>
-          <img src="./images/inspiration.jpg" alt="монитор" width="370">
-          <h2 class="section-title">Inspiration has no Borders</h2>
-          <p class="section-kind">Веб-сайт</p>
+          <a href="" class="section-photo"><img src="./images/no-vs-gs.jpg" alt="баскетболисты" width="370">
+            <h2 class="section-title">Постер New Orlean vs Golden Star</h2>
+            <p class="section-kind">Дизайн</p>
+          </a>
         </li>
         <li>
-          <img src="./images/edition.jpg" alt="книга" width="370">
-          <h2 class="section-title">Издание Limited Edition</h2>
-          <p class="section-kind">Дизайн</p>
+          <a href="" class="section-photo"><img src="./images/seafood.jpg" alt="логотип-ресторана" width="370">
+            <h2 class="section-title">Ресторан Seafood</h2>
+            <p class="section-kind">Приложение</p>
+          </a>
         </li>
         <li>
-          <img src="./images/lab.jpg" alt="этикетка" width="370">
-          <h2 class="section-title">Проект LAB</h2>
-          <p class="section-kind">Маркетинг</p>
+          <a href="" class="section-photo"><img src="./images/prime.jpg" alt="наушники" width="370">
+            <h2 class="section-title">Проект Prime</h2>
+            <p class="section-kind">Маркетинг</p>
+          </a>
         </li>
         <li>
-          <img src="./images/business.jpg" alt="ноутбук" width="370">
-          <h2 class="section-title">Growing Business</h2>
-          <p class="section-kind">Приложение</p>
+          <a href="" class="section-photo"><img src="./images/boxes.jpg" alt="две-коробки" width="370">
+            <h2 class="section-title">Проект Boxes</h2>
+            <p class="section-kind">Приложение</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="section-photo"><img src="./images/inspiration.jpg" alt="монитор" width="370">
+            <h2 class="section-title">Inspiration has no Borders</h2>
+            <p class="section-kind">Веб-сайт</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="section-photo"><img src="./images/edition.jpg" alt="книга" width="370">
+            <h2 class="section-title">Издание Limited Edition</h2>
+            <p class="section-kind">Дизайн</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="section-photo"><img src="./images/lab.jpg" alt="этикетка" width="370">
+            <h2 class="section-title">Проект LAB</h2>
+            <p class="section-kind">Маркетинг</p>
+          </a>
+        </li>
+        <li>
+          <a href="" class="section-photo"><img src="./images/business.jpg" alt="ноутбук" width="370">
+            <h2 class="section-title">Growing Business</h2>
+            <p class="section-kind">Приложение</p>
+          </a>
         </li>
       </ul>
     </section>
   </main>
   <!--Футер-->
   <footer class="footer">
-    <a href="/" lang="en"><span class="web">Web</span> <span class="studio-footer">Studio</span></a>
-    <address>
+    <a href="/" class="logo" lang="en"><span class="web">Web</span> <span class="studio-footer">Studio</span></a>
+    <address class="address-footer">
       <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
       <ul class="list">
         <li><a href="mailto:info@example.com" class="mail-footer">info@example.com</a></li>
-        <li><a href="tel:+380991111111" class="mail-footer">+38 099 111 11 11</a></li>
+        <li><a href="tel:+380991111111" class="tel-footer">+38 099 111 11 11</a></li>
       </ul>
     </address>
   </footer>
