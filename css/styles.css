@@ -189,14 +189,17 @@ body {
   text-decoration: none;
 }
 /* Проекты */
-.section-title {
+.project-photo {
+  text-decoration: none;
+}
+.project-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-prime-color);
 }
-.section-photo {
-  text-decoration: none;
+.project-kind {
+  color: var(--text-second-color);
 }
 /* Футер */
 .footer {
